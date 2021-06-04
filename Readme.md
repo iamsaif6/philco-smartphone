@@ -2,9 +2,9 @@
 
 <br>
 
-<img src="https://github.com/iamsaif6/philco-air-condition/blob/master/Screenshot%202021-06-04%20at%2011-11-45%20Document.png" width="800px" />
+<img src="https://github.com/iamsaif6/philco-smartphone/blob/master/philco-mobile.gif" width="800px" />
 
-> ## Live Preview : [Click Here](https://iamsaif6.github.io/philco-air-condition/ "Philco")
+> ## Live Preview : [Click Here](https://iamsaif6.github.io/philco-smartphone/ "Philco")
 
  <br>
 
