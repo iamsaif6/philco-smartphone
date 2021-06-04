@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "This is quick starter pack for Bootstrap Project . Open terminal in starter folder , write npm install for download all the required pakages for Bootstrap project . Then Just enter npm start for run the compiler",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": " node-sass node_modules/bootstrap/scss/bootstrap.scss src/css/bootstrap.css",
+    "css": " node-sass src/sass/main.scss src/css/style.css -w",
+    "bootstrap-js": "concat -o src/js/bootstrap.js node_modules/bootstrap/dist/js/bootstrap.min.js",
+    "popper-js": "concat -o src/js/popper.js node_modules/@popperjs/core/dist/umd/popper.min.js",
+    "jquery": "concat -o src/js/jquery.js node_modules/jquery/dist/jquery.min.js",
+    "owl": "concat -o src/js/owl.carousel.min.js node_modules/owl.carousel/dist/owl.carousel.min.js",
+    "owlCss": "concat -o src/css/owl.carousel.min.css node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+    "aos": "concat -o src/js/aos.js node_modules/aos/dist/aos.js",
+    "aoscss": "concat -o src/css/aos.css node_modules/aos/dist/aos.css",
+    "start": "npm-run-all bootstrap-js owl owlCss aos aoscss popper-js jquery bootstrap css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Stater",
+    "Pakage"
+  ],
+  "author": "Saif Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.5.4",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "owl.carousel": "^2.3.4"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
